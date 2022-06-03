@@ -56,10 +56,21 @@
     left: 50%;
     transform: translate(-50%, -50%);
 }
+ 
+.whole-s {
+    box-shadow:rgba(0, 0, 0, 0.25) 0px 0px 25px,  
+               rgba(0, 0, 0, 0.09) 0px 0px 5px;
 
-.card {
-    box-shadow:rgba(0, 0, 0, 0.25) 0px 24px 25px,  
-               rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.whole-w {
+    box-shadow:rgba(250, 238, 6, 0.728) 0px 0px 25px,  
+               rgba(255, 255, 0, 0.724) 0px 0px 5px;
+
+}
+.whole-d {
+    box-shadow:rgba(248, 5, 5, 0.662) 0px 0px 25px,  
+               rgba(241, 5, 5, 0.581) 0px 0px 5px;
+
 }
 
 footer {

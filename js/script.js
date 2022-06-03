@@ -8,14 +8,24 @@ function call(x) {
   for (let tasks of x) {
       if (tasks.priority <= 1) {
           color = "bg-success";
+          jos = "none";
+          shdw = "whole-s";
       } else if (tasks.priority <= 3) {
           color = "bg-warning";
-      } else {
+          jos = "none";
+          shdw = "whole-w";
+      } else  if (tasks.priority <= 5){
           color = "bg-danger";
-      }
+          jos = "none";
+          shdw = "whole-d";
+      } else {
+        color = "bg-light";
+        jos = "bg-danger";
+        shdw = "whole-d";
+    }
     content.innerHTML += `
            <div class="col-lg-4 col-md-6 col-sm-12 d-flex mio my-2 justify-content-center">
-               <div class="card" style="width: 18rem">
+               <div class="card ${shdw} ${jos} " style="width: 18rem">
                    <div class="first row justify-content-center">
                        <div class="col-12 my-2 row d-flex justify-content-between">
                            <div class="col-3 text-center">
@@ -34,7 +44,7 @@ function call(x) {
                        <h5 class="card-title text-center">${tasks.do}</h5>
                        <h6 class="card-title text-center">${tasks.info}</h6>
                        <hr>
-                       <div class="pry d-flex">
+                       <div class="pry gogo d-flex">
                            <svg  class="b-likes" id="i-alert" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="20" height="20" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
                                <path d="M16 3 L30 29 2 29 Z M16 11 L16 19 M16 23 L16 25" />
                            </svg>
@@ -73,7 +83,7 @@ function call(x) {
 }
 
 function action() {
-  let btns = document.getElementsByClassName("b-likes");
+  let btns = document.getElementsByClassName("gogo");
   for (let i = 0; i < btns.length; i++) { 
     btns[i].addEventListener("click", function () {
         listOfTask[i].priority++;
