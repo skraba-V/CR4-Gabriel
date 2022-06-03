@@ -1,0 +1,89 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ 
+.bell {
+    width: 20px;
+    height: 20px; 
+}
+
+.tree {
+    width: 15px;
+    height: 20px; 
+}
+
+.task-b { 
+    padding: 5px;
+    border-radius: 5px;
+    background-color: aqua;
+    color: white;
+}
+
+.pointrd {
+    width: 20px;
+    height: 100%;
+}
+
+.icon-p {
+    width: 30px;
+    height: 25px;
+    margin: 0 15px; 
+}
+
+.slide {
+    height: 70vh;
+}
+
+.show {
+    width: 100%;
+    height: 100%;
+    object-position: center;
+    object-fit: cover;
+}
+
+
+.mitte {
+    background-color: rgba(255, 255, 255, 0.644);
+    border-radius: 20px;
+    padding: 5rem;
+    color: rgb(0, 0, 0);
+    text-shadow: 0px 0px 10px black;
+    font-size: 4vw;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.card {
+    box-shadow:rgba(0, 0, 0, 0.25) 0px 24px 25px,  
+               rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+footer {
+    max-width: 100% !important; 
+}
+ 
+
+.socicon {
+    box-shadow: inset 0px 0px 10px rgb(255, 255, 255);
+    border: 2px solid white;
+    border-radius: 8px;
+    padding: 10px;
+    width: 50px;
+    height: 50px;
+    margin: 0.5rem;
+}
+
+.newsletter {
+    width: 100%;
+}
+
+.fotbut { 
+    color: white;
+    border: solid 2px white;
+    background-color: transparent;
+    border-radius: 5px;
+}

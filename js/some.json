@@ -1,0 +1,66 @@
+let tasks = `
+  [{
+    "id": "1",
+    "do" : "Breakfast",
+    "info": "Make breakfast and wash dishes",
+    "priority": 0,
+    "deadline": "27.01.2022",
+    "photo": "../img/pexels-julian-jagtenberg-103124.jpeg"
+  }, {
+    "id": "2",
+    "do" : "Purchase",
+    "info": "Buy food",
+    "priority": 0,
+    "deadline": "27.01.2022",
+    "photo" : "../img/pexels-gustavo-fring-3985078.jpeg"
+  }, {
+    "id": "3",
+    "do" : "Run",
+    "info": "Go out and run half hour",
+    "priority": 0,
+    "deadline": "27.01.2022",
+    "photo" : "../img/pexels-pixabay-235922.jpeg"
+  }, {
+    "id": "4",
+    "do" : "Bowling",
+    "info": "Bowling with friends",
+    "priority": 0,
+    "deadline": "27.01.2022",
+    "photo" : "../img/pexels-pavel-danilyuk-7429786.jpeg"
+  }, {
+    "id": "5",
+    "do" : "Refuel",
+    "info": "Refuel a car",
+    "priority": 0,
+    "deadline": "27.01.2022",
+    "photo" : "../img/pexels-skitterphoto-9796.jpeg"
+  }, {
+    "id": "6",
+    "do" : "To visit parents",
+    "info": "Meet with parents and have lunch",
+    "priority": 0,
+    "deadline": "27.01.2022",
+    "photo" : "../img/pexels-rodnae-productions-6148984.jpeg"
+  }, {
+    "id": "7",
+    "do" : "Clean the apartment",
+    "info": "Take funds and clean",
+    "priority": 0,
+    "deadline": "27.01.2022",
+    "photo" : "../img/pexels-tima-miroshnichenko-6195277.jpeg"
+  }, {
+    "id": "8",
+    "do" : "Play guitar",
+    "info": "Rehearsal with the band",
+    "priority": 0,
+    "deadline": "27.01.2022",
+    "photo" : "../img/pexels-north-1407322.jpeg"
+  }, {
+    "id": "9",
+    "do" : "Play game",
+    "info": "Playing Fifa with freinds",
+    "priority": 0,
+    "deadline": "27.01.2022",
+    "photo" : "../img/pexels-pavel-danilyuk-7776152.JPEG"
+  }
+]`
