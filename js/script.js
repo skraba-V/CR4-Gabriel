@@ -96,7 +96,7 @@ function action() {
   }
 } 
 call(listOfTask);
-action();
+//action();
  
 function sortpr() {
     listOfTask.sort(function(a, v) {
